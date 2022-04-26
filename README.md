@@ -1,4 +1,4 @@
-# soc-specific-plugin
+# Sociality site-specific Wordpress plugin
 Default template for site-specific plugin for Wordpress
 
 # How to use
