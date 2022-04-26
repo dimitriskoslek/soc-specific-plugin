@@ -14,11 +14,11 @@ function soc_register_taxonomies() {
 		'sector',
 		'project',
 		array(
-			'label'			=> __('Sector', 'soc'),
-			'rewrite'		=> array( 'slug' => 'sector' ),
+			'label'		=> __('Sector', 'soc'),
+			'rewrite'	=> array( 'slug' => 'sector' ),
 			'hierarchical'	=> true,
-			'labels'		=> array(
-				'add_new_item' => __('Add new Sector','soc'),
+			'labels'	=> array(
+				'add_new_item'	=> __('Add new Sector','soc'),
 			),
 			'show_in_rest'	=> true,
 		)

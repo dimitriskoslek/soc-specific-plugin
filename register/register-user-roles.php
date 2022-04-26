@@ -7,17 +7,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 /************************
 ** REGISTER USER ROLES **
 ************************/
-add_role( 'library', __('Library','soc'), array(
+add_role('library', __('Library','soc'), array(
 	'read' => true,
 ));
-add_role( 'pr_manager', __('Project Manager','soc'), array(
+add_role('pr_manager', __('Project Manager','soc'), array(
 	'read' => true,
 ));
 
 /***************************************
 ** CUSTOM CAPABILITIES FOR USER ROLES **
 ***************************************/
-function soc_add_user_role_capabilities() {
+function soc_add_user_role_capabilities(){
 
 	// Library
 	$role = get_role('library');

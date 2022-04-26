@@ -9,9 +9,9 @@ function soc_library_notice(){
 
         $user = wp_get_current_user();
         if(in_array('library', (array) $user->roles)){
-		echo	'<div class="notice notice-warning">
-				<p>Παρακαλώ προσθέστε τις βιβλιοθήκες-τοποθεσίες που σχετίζονται με τον οργανισμό σας στο τέλος της σελίδας προφίλ σας!!</p>
-			</div>';
+		echo	'<div class="notice notice-warning">';
+		echo		'<p>' . __('Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'soc') . '</p>';
+		echo	'</div>';
         }
 
 }

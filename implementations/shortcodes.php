@@ -13,9 +13,9 @@ function fn_display_networks(){
 	ob_start();
 
 	$network_args = array(
-		'post_type'			=> array('network'),
+		'post_type'		=> array('network'),
 		'post_status'		=> array('publish'),
-		'posts_per_page'	=> -1
+		'posts_per_page'	=> -1,
 	);
 	$network_items = new WP_Query($network_args);
 

@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ** Remove sections from admin bar **
 ***********************************/
 function soc_hide_from_dashboard(){
-	
+
 	/*
 	** Remove for non-admin
 	*/
