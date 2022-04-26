@@ -8,6 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
+include 'settings/comments.php';
 include 'settings/gutenberg.php';
 include 'settings/hide-from-dashboard.php';
 include 'settings/notices.php';
