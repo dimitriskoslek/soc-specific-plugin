@@ -8,8 +8,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-include 'settings/settings.php';
+include 'settings/gutenberg.php';
+include 'settings/hide-from-dashboard.php';
+include 'settings/notices.php';
 
-include 'includes/register/register-post-types.php';
-include 'includes/register/register-taxonomies.php';
-include 'includes/shortcodes.php';
+include 'register/register-post-types.php';
+include 'register/register-taxonomies.php';
+include 'register/register-user-roles.php';
+
+include 'shortcodes.php';
