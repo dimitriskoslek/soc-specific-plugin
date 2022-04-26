@@ -1,5 +1,9 @@
 <?php
 
+if ( ! defined( 'ABSPATH' ) ) {
+        exit; // Exit if accessed directly.
+}
+
 /*****************************
 ** NETWORKS ARCHIVE DISPLAY **
 *****************************/
@@ -14,7 +18,7 @@ function fn_display_networks(){
 		'posts_per_page'	=> -1
 	);
 	$network_items = new WP_Query($network_args);
-							
+
 	if($network_items->have_posts())
 	{
 		?>
