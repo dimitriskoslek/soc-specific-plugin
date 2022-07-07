@@ -1,14 +1,14 @@
 <?php
 
 if ( ! defined( 'ABSPATH' ) ) {
-        exit; // Exit if accessed directly.
+	exit; // Exit if accessed directly.
 }
 
 /*****************************
 ** NETWORKS ARCHIVE DISPLAY **
 *****************************/
-function fn_display_networks(){
-
+function fn_display_networks()
+{
 	// Start buffer
 	ob_start();
 
